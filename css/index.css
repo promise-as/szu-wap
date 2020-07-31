@@ -12,12 +12,12 @@ input[type="submit"] { text-indent: 0; cursor: pointer; border: none; appearance
 .space-between, .strength .s-head { display: flex; align-items: center; flex-wrap: wrap; justify-content: space-between; }
 
 .wrap { width: 10rem; margin: 0 auto; font-size: 0.3733333333rem; font-family: "Microsoft Yahei"; }
-
-p { line-height: 0.6133333333rem; }
+.wrap p { line-height: 0.6133333333rem; }
 
 .header { display: flex; align-items: center; height: 1.1733333333rem; padding: 0 0.2666666667rem; }
-.header .h1 { width: 2.6666666667rem; height: 0.6933333333rem; }
-.header .sublogo { padding-left: 0.24rem; margin-left: 0.24rem; line-height: 0.6666666667rem; border-left: 1px solid #ddd; }
+.header .h1 { width: 2.6666666667rem; height: 0.6933333333rem; margin-top: -3%; }
+.header .sublogo { height: 100%; padding-left: 0.24rem; line-height: 0.6666666667rem; }
+.header .sublogo img { height: 100%; }
 
 .banner a { display: block; height: 6rem; }
 
@@ -25,7 +25,7 @@ p { line-height: 0.6133333333rem; }
 .title .en { padding-right: 30px; font-size: 0.8rem; line-height: 0.5333333333rem; color: #970041; opacity: 0.1; }
 .title .cn { position: absolute; left: 0; right: 0; top: 0.24rem; margin: auto; font-size: 0.5333333333rem; line-height: 0.5333333333rem; }
 
-.btn-wrap { padding-top: 0.4rem; line-height: 1.1733333333rem; text-align: center; }
+.btn-wrap { padding-top: 0.4rem; line-height: 1.1733333333rem; font-size: 0.4266666667rem; text-align: center; }
 .btn-wrap a { display: block; height: 1.1733333333rem; line-height: 1.1733333333rem; border-radius: 0.08rem; background-color: #ee931b; color: #fff; }
 
 .intro { padding: 0.9333333333rem 0.4rem; }
@@ -43,15 +43,15 @@ p { line-height: 0.6133333333rem; }
 
 .courses { padding: 0 0.4rem; }
 .courses .c-cont .c-item { padding: 0.4rem 0.2666666667rem 0.4rem 0.4rem; margin-bottom: 0.24rem; line-height: 0.6133333333rem; border-radius: 0.08rem; border: solid 1px #dddddd; }
-.courses .c-cont .c-item .i-title { padding-left: 0.2rem; margin-bottom: 0.2666666667rem; line-height: 0.4rem; border-left: 0.1066666667rem solid #970041; color: #970041; }
+.courses .c-cont .c-item .i-title { padding-left: 0.2rem; margin-bottom: 0.2666666667rem; line-height: 0.4rem; font-weight: bold; border-left: 0.1066666667rem solid #970041; color: #970041; }
 
 .course-info { padding: 1.0666666667rem 0.4rem; }
 .course-info .i-cont .bg { height: 5.1733333333rem; margin-bottom: 0.5333333333rem; }
 .course-info .i-cont .c-name { padding-left: 0.1333333333rem; margin-bottom: 0.2666666667rem; line-height: 0.4rem; font-size: 0.4266666667rem; font-weight: bold; border-left: 0.1066666667rem solid #970041; }
 .course-info .i-cont .c-history { color: #666666; margin-bottom: 0.4rem; }
 .course-info .i-cont .c-history p { text-indent: 2em; }
-.course-info .i-detail { display: flex; flex-wrap: wrap; padding: 0.4rem 0.4rem 0.1333333333rem; margin-bottom: 0.1333333333rem; font-size: 0.32rem; border: solid 1px #dddddd; background-color: #fafafa; border-radius: 0.08rem; }
-.course-info .i-detail .d-item { display: flex; align-items: center; padding-right: 0.2666666667rem; margin-bottom: 0.2666666667rem; line-height: 0.32rem; color: #666666; }
+.course-info .i-detail { display: flex; flex-wrap: wrap; padding: 0.4rem 0 0.1333333333rem 0.4rem; margin-bottom: 0.1333333333rem; font-size: 0.32rem; border: solid 1px #dddddd; background-color: #fafafa; border-radius: 0.08rem; }
+.course-info .i-detail .d-item { display: flex; align-items: center; padding-right: 0.1333333333rem; margin-bottom: 0.2666666667rem; line-height: 0.32rem; color: #666666; }
 .course-info .i-detail .d-item img { margin-right: 6px; }
 .course-info .i-detail .d-item span { font-weight: bold; color: #333333; }
 

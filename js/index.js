@@ -1,5 +1,6 @@
 charset = 'UTF-8';
 $(function(){
+  theaMsForm($('.sign-in'));
   // 五大优势
   function strengthSwitch(head, cont, classname) {
     $(head).each(function (i) {
@@ -18,6 +19,5 @@ $(function(){
     // autoplay: true,//可选选项，自动滑动
     // 如果需要分页器
     pagination: '.swiper-pagination',
-  
   })
 });

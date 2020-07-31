@@ -50,9 +50,9 @@ $padding: pr(30px);
   margin: 0 auto;
   font-size: pr(28px);
   font-family: "Microsoft Yahei";
-}
-p {
-  line-height: pr(46px);
+  p {
+    line-height: pr(46px);
+  }
 }
 .header {
   display: flex;
@@ -62,12 +62,17 @@ p {
   .h1 {
     width: pr(200px);
     height: pr(52px);
+    margin-top: -3%;
   }
   .sublogo {
+    height: 100%;
     padding-left: pr(18px);
-    margin-left: pr(18px);
+    // margin-left: pr(18px);
     line-height: pr(50px);
-    border-left: 1px solid #ddd;
+    // border-left: 1px solid #ddd;
+    img {
+      height: 100%;
+    }
   }
 }
 .banner {
@@ -103,6 +108,7 @@ p {
 .btn-wrap {
   padding-top: $padding;
   line-height: pr(88px);
+  font-size: pr(32px);
   text-align: center;
   a {
     display: block;
@@ -206,11 +212,11 @@ p {
       line-height: pr(46px);
       border-radius: pr(6px);
       border: solid 1px #dddddd;
-
       .i-title {
         padding-left: pr(15px);
         margin-bottom: pr(20px);
         line-height: pr(30px);
+        font-weight: bold;
         border-left: pr(8px) solid $bg-color;
         color: $bg-color;
       }
@@ -243,7 +249,7 @@ p {
   .i-detail {
     display: flex;
     flex-wrap: wrap;
-    padding: $padding $padding pr(10px);
+    padding: $padding 0 pr(10px) $padding;
     margin-bottom: pr(10px);
     font-size: pr(24px);
     border: solid 1px #dddddd;
@@ -252,7 +258,7 @@ p {
     .d-item {
       display: flex;
       align-items: center;
-      padding-right: pr(20px);
+      padding-right: pr(10px);
       margin-bottom: pr(20px);
       line-height: pr(24px);
       color: #666666;
@@ -440,7 +446,7 @@ p {
         height: pr(96px);
         margin-bottom: pr(40px);
         text-align: center;
-        img{
+        img {
           height: 100%;
         }
       }
@@ -477,21 +483,21 @@ p {
   text-align: center;
   background-color: #f5f5f5;
   color: #666666;
-  p{
+  p {
     line-height: pr(30px);
   }
 }
 // 轮播图
-.swiper-container{
-  .swiper-wrapper{
+.swiper-container {
+  .swiper-wrapper {
     margin-bottom: pr(40px);
   }
-  .swiper-pagination{
-    &.swiper-pagination-bullets{
+  .swiper-pagination {
+    &.swiper-pagination-bullets {
       bottom: 0;
     }
   }
-  .swiper-pagination-bullet-active{
+  .swiper-pagination-bullet-active {
     background: $bg-color;
   }
 }
